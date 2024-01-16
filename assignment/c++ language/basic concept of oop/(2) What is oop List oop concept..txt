@@ -1,0 +1,6 @@
+(2) What is oop? List oop concept.
+   
+-- in order to remove some of the flows of pop, oop came into existence.
+-- oop treats data as critical element in program development and does not allow it to flow freely around the system.
+-- It ties the data more closely to the function that operates on it.
+-- object oriented programming allows
