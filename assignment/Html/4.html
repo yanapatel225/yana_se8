@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10 IT Companies</title>
+    <style>
+        /* Some basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        select {
+            width: 100%;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Top 10 IT Companies</h1>
+        <select id="itCompanies">
+            <option value="">Select a company</option>
+            <option value="Microsoft">Microsoft</option>
+            <option value="Apple Inc.">Apple Inc.</option>
+            <option value="Amazon">Amazon</option>
+            <option value="Alphabet Inc. (Google)">Alphabet Inc. (Google)</option>
+            <option value="Facebook">Facebook</option>
+            <option value="IBM">IBM</option>
+            <option value="Samsung">Samsung</option>
+            <option value="Intel">Intel</option>
+            <option value="Tencent">Tencent</option>
+            <option value="Oracle Corporation">Oracle Corporation</option>
+        </select>
+        <div id="companyInfo">
+            <!-- Selected company information will be displayed here -->
+        </div>
+    </div>
+
+    <script>
+        // JavaScript to handle selection change and display company info
+        const selectElement = document.getElementById('itCompanies');
+        const companyInfoElement = document.getElementById('companyInfo');
+
+        selectElement.addEventListener('change', function() {
+            const selectedCompany = this.value;
+            companyInfoElement.textContent = selectedCompany ? `Selected company: ${selectedCompany}` : '';
+        });
+    </script>
+</body>
+</html>

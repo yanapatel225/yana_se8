@@ -1,0 +1,60 @@
+1). Define the terms: Website, Webpage, Web browser, Web server,HTML,CSS.
+
+-> Website: A website is a collection of related web pages typically served from a single web domain. It is designed to be viewed in a web browser and accessed via the Internet or a local network.
+
+-> Webpage: A webpage is a single document or resource of content that is accessible through the World Wide Web. It can contain text, images, videos, hyperlinks, and other multimedia elements. Webpages are designed using languages like HTML and styled using CSS.
+
+-> Web browser: A web browser is a software application used to access information on the World Wide Web. It interprets HTML documents and displays them as webpages, allowing users to navigate between different sites and interact with various online content.
+
+-> Web server: A web server is a computer program or hardware device that serves content to users over the Internet. It receives requests from web browsers and delivers webpages, files, or other resources in response. Common web server software includes Apache, Nginx, and Microsoft Internet Information Services (IIS).
+
+-> HTML (Hypertext Markup Language): HTML is the standard markup language used to create and design webpages. It provides the structure and layout of a webpage by using a system of tags and attributes to define elements such as headings, paragraphs, images, links, and forms.
+
+-> CSS (Cascading Style Sheets): CSS is a style sheet language used to control the presentation and appearance of HTML documents. It allows web developers to specify the colors, fonts, spacing, layout, and other visual aspects of a webpage, ensuring consistent design across multiple pages or entire websites.
+
+
+2).CSS can be integrated into a web page in several ways, depending on the needs and preferences of the developer. Here are the most common methods:
+
+-> Inline CSS: CSS styles can be applied directly to HTML elements using the style attribute. For example:
+
+html
+Copy code
+<p style="color: red; font-size: 16px;">This is a paragraph with inline CSS.</p>
+Inline CSS is useful for applying styles to individual elements but can become difficult to manage for larger projects.
+
+-> Internal CSS: CSS styles can be placed within the <style> element in the <head> section of an HTML document. For example:
+
+html
+Copy code
+<head>
+    <style>
+        p {
+            color: blue;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <p>This is a paragraph with internal CSS.</p>
+</body>
+Internal CSS allows you to define styles for multiple elements within the same HTML file, making it easier to manage styles for a single page.
+
+-> External CSS: CSS styles can be placed in an external file with a .css extension and then linked to the HTML document using the <link> element. For example:
+
+html
+Copy code
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+The href attribute specifies the path to the external CSS file. External CSS is recommended for larger projects as it allows for better organization and reusability of styles across multiple pages.
+-> CSS Frameworks: CSS frameworks like Bootstrap, Foundation, and Bulma provide pre-designed CSS styles and components that can be easily integrated into web pages. These frameworks often come with their own set of CSS files that need to be linked to the HTML document, and they offer a wide range of customizable components for building responsive and visually appealing websites.
+
+-> Preprocessors: CSS preprocessors like Sass and Less allow developers to write CSS code using advanced features such as variables, mixins, and nested rules, which are then compiled into standard CSS before being served to the browser. Preprocessors can help improve code organization and maintainability by reducing repetition and allowing for modularization of styles.
+
+These are some of the common ways CSS can be integrated into a web page, and developers often choose the method or combination of methods that best suits their project requirements and workflow preferences.
+
+
+
+
+
+

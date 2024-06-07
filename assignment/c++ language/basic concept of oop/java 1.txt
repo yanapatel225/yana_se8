@@ -1,0 +1,47 @@
+=Function:
+it is a set of instruction.
+--void it self a retur type that return nothing.
+--two type of function:
+1 laibrary function
+2 user define function
+
+-evry progran is start with "main". 
+
+-public class is only one.
+
+-string is class.
+
+-args- array of object.
+
+-ctrl f 11 key word of run program
+
+- variable is a data name it is use to store a data value.
+-4 rules
+1. must start with a alphabet.
+2. upper canse and lower case are significant.
+3. keyword is not allowed as a variable name.
+4. space is not allowed between variable name.
+
+ascii--
+ american standard code for information interchange
+
+************************************************************************************************************************************************
+ConstructorDemo:
+
+a constructor special memeber function.
+
+*why did special:-
+ -they have the same name as the class name.
+ -they do not have any return type.
+ -they are envoke automaticaly.
+ -when those object are automatically.
+
+types of constructor:-
+ 1) defall constructor:-
+ -- the constructor which have  a no argument.
+
+ 2) perameter constructor:-
+ -- the constructor which have a argument.
+
+ 3) copy constructor:-
+ -- the constructor which have a object as argument.

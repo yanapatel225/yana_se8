@@ -1,0 +1,25 @@
+javascript:
+
+1) using innerhtml -
+
+<p id="demp"></p>
+<script>
+      document.getElementById("demo").inner html="hello";
+</script>
+
+2) using buttons:
+
+<button onclick="document.write(6+5)">try it</button>
+
+3) using console:
+
+<script>
+     console.log(6+5);
+</script>
+
+4) using alert:
+
+<script>
+      window.alret(6+5);
+<\script>
+
