@@ -1,3 +1,0 @@
---- Final demo--
-
-final is a keyword. which is use to declare variables, method and class. if u declare variable as a final. then u cannot change the value. if u declare method as a final then u can not override if u declare class as final then u can not extend it.
